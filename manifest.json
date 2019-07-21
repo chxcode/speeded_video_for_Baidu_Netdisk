@@ -1,11 +1,11 @@
 {  
-  "name": "百度云盘视频加速器",  
+  "name": "百度网盘视频加速器",  
   "manifest_version" : 2,
   "version": "0.0.1",  
-  "description": "滑动控制条来调节百度云盘视频播放速度",  
+  "description": "滑动控制条来调节百度网盘视频播放速度",  
   "page_action": {  
     "default_icon": "images/icon.png" ,
-    "default_title": "百度云盘视频加速器",
+    "default_title": "百度网盘视频加速器",
     "default_popup": "popup.html"
   },
   "permissions": [
