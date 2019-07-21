@@ -1,0 +1,2 @@
+# speed_video_for_Baidu_Netdisk
+一款可以调整百度网盘在线播放视频速度的谷歌浏览器插件。
