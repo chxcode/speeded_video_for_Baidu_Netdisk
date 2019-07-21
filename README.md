@@ -1,6 +1,7 @@
 # 百度网盘视频加速插件
 一款可以调整百度网盘在线播放视频速度的谷歌浏览器插件。
 
+![插件界面](demo.png)
 # 前言
 由于最近一直在看百度网盘中的网课，但不太好的一点就是不能调节播放速度。如果我直接跳过又担心漏过比较重要的知识点。
 所以在网上找了一句调节播放速度的JS代码，如下：
@@ -17,6 +18,11 @@ videojs.getPlayers("video-player").html5player.tech_.setPlaybackRate(1.5)
 2. 使用谷歌浏览器将此项目加载到谷歌浏览器的扩展程序中。（具体操作步骤可以谷歌or百度）
 # Author
 © [常轩](http://changxuan.top), Released under the [GPL](https://github.com/chxcode/speed_video_for_Baidu_Netdisk/blob/master/LICENSE) License.
+
+如果对您有帮助，可以请作者吃根雪糕！
+
+![dashang](images/dashang.png)
+
 # 更新日志
 ## V1.0.2
 ### 2019-07-20
