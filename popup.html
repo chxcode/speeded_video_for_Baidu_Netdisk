@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+    百度云盘视频在线加速插件（谷歌浏览器插件）
+    作者：常轩
+    时间：2019.07.21
+    开源协议：MIT
+    Github ：http://github.com/chxcode
+    网站：http://changxuan.top
+    公众号：Worldhello
+-->
+<html lang="zh-CN">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" /> 
+	<meta charset="UTF-8">
+    <title>百度云盘视频变速器</title>
+</head>
+<body >
+	<div id="about">
+		<div class="header">
+                <div class="logo">
+                    <img src="images/icon-128.png" width="70"/>
+                </div>
+                <div class="logo-content">
+                    <p class="title">云盘视频加速</p>
+                    <p class="sub-title">版本：<span id="versionNumber">1.0.1</span></p>
+                </div>
+        </div>
+        <div id="body">
+        	<div id="developer">
+                    <div class="name">
+                        <span>调整速度：<input type="range" name="points" min="0" max="2" step="any" id="keyword" list="tickmarks"/>
+										<datalist id="tickmarks">
+										    <option value="0">
+										    <option value="0.25">
+										    <option value="0.5">
+										    <option value="0.75">
+										    <option value="1">
+										    <option value="1.25">
+										    <option value="1.5">
+										    <option value="1.75">
+										    <option value="2">
+										</datalist>
+                        </span>
+                    </div>
+            </div>
+            <br/>
+            <div style="margin-bottom: 15px;">
+                    <span>使用说明：向前拖动为快进，向后拖动为慢放</span>
+            </div>
+        </div>
+        <div class="footer">
+                <div class="popup_copyright">
+                    &copy; 2019 <a target="_blank" href="http://www.changxuan.top/">常轩博客</a>
+                </div>
+                <a id="settings" href="#"></a>
+        </div>
+	</div>
+	<script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/popup.js"></script>
+</body>
+</html>

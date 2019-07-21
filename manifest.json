@@ -1,0 +1,31 @@
+{  
+  "name": "百度云盘视频加速器",  
+  "manifest_version" : 2,
+  "version": "0.0.1",  
+  "description": "滑动控制条来调节百度云盘视频播放速度",  
+  "page_action": {  
+    "default_icon": "images/icon.png" ,
+    "default_title": "百度云盘视频加速器",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs", "activeTab","declarativeContent"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+      	"http://pan.baidu.com/*",
+      	"https://pan.baidu.com/*"
+      	],
+      "js": [
+      	"js/jquery-2.1.4.min.js",
+      	"js/controlVideo.js"
+      	]
+    }
+  ],
+  "background":{
+        "scripts": [
+          "js/background.js"
+          ]
+   }
+} 

@@ -1,0 +1,74 @@
+body {
+                margin: 0;
+                color: #345;
+                font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,\\5FAE\8F6F\96C5\9ED1,Arial,sans-serif;
+                font-size: 9pt;
+            }
+
+            body * {
+                white-space: nowrap;
+            }
+
+            #about {
+                font-size: 10pt;
+                padding: 10px 20px;
+            }
+
+            .header{
+                width: 290px;
+                height: 90px;
+            }
+
+            .header .logo{
+                float:left;
+                margin-bottom: 20px;
+            }
+
+            .header .logo-content {
+                float:left;
+                margin-left: 10px;
+                padding-top: 5px;
+            }
+
+            .header .title{
+                font-size:24px;
+                margin: 0px 5px;
+            }
+
+            .header .sub-title{
+                font-size:16px;
+                margin: 0px 5px;
+            }
+
+            #about a {
+                cursor: pointer;
+                text-decoration: blink;
+                color: #4285f4;
+                outline : none;
+            }
+
+            #about .footer {
+                height: 15px;
+                color: #789;
+                margin: 5px;
+                padding-top: 5px;
+                border-top: solid 1px #eef;
+                white-space: nowrap;
+            }
+        
+            #about #tips{
+                color: red;
+                font-size: 16px;
+                display: block;
+                padding-bottom: 5px;
+            }
+            .popup_copyright{
+                text-align: center;
+            }
+            #settings{
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                float: right;
+                margin-top: -22px;
+            }
