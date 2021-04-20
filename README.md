@@ -1,3 +1,6 @@
+# 通知
+由于百度网盘更新了在线播放页面的程序，导致现有插件倍速策略失效。目前正在寻找解决办法...
+
 # 百度网盘视频加速插件
 
 ![speeded_video_for_Baidu_Netdisk](https://socialify.git.ci/chxcode/speeded_video_for_Baidu_Netdisk/image?description=1&font=Bitter&language=1&owner=1&pattern=Plus&theme=Light)
