@@ -1,5 +1,7 @@
 # 通知
-由于百度网盘更新了在线播放页面的程序，导致现有插件倍速策略失效。目前正在寻找解决办法...
+由于百度网盘更新了在线播放页面的程序，导致现有插件倍速策略失效。目前不准备解决了...
+
+【推荐可用插件】：[globalSpeed](https://github.com/polywock/globalSpeed)
 
 # 百度网盘视频加速插件
 
@@ -35,3 +37,5 @@ videojs.getPlayers("video-player").html5player.tech_.setPlaybackRate(1.5)
 ## V1.0.2
 ### 2019-07-20
 > 项目基本功能完成
+
+### 停止维护
